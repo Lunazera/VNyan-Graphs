@@ -1,4 +1,4 @@
-# Webcam Arm Motion Detection
+# External Tracking Detection
 
 Arm Motion tracking for ArmSway. Works with webcam arm tracking and external tracking systems. 
 
