@@ -1,0 +1,158 @@
+{
+    "bones": 6,
+    "name": "LeftWobble",
+    "inputs": [
+        {
+            "isBlendshape": false,
+            "valueName": "WobbleY",
+            "multiplier": -100.0,
+            "isRotation": false
+        }
+    ],
+    "outputs": [
+        {
+            "bone": 2,
+            "blendshape": "",
+            "negative": "",
+            "param": "",
+            "multiplier": 2.0,
+            "gameObject": "",
+            "offset": 0.0,
+            "transform": 0
+        },
+        {
+            "bone": 2,
+            "blendshape": "",
+            "negative": "",
+            "param": "",
+            "multiplier": 2.0,
+            "gameObject": "",
+            "offset": 0.0,
+            "transform": 0
+        },
+        {
+            "bone": 2,
+            "blendshape": "",
+            "negative": "",
+            "param": "",
+            "multiplier": 5.0,
+            "gameObject": "",
+            "offset": 0.0,
+            "transform": 0
+        },
+        {
+            "bone": 2,
+            "blendshape": "",
+            "negative": "",
+            "param": "",
+            "multiplier": -5.0,
+            "gameObject": "",
+            "offset": 0.0,
+            "transform": 0
+        },
+        {
+            "bone": 2,
+            "blendshape": "",
+            "negative": "",
+            "param": "",
+            "multiplier": -5.0,
+            "gameObject": "",
+            "offset": 0.0,
+            "transform": 0
+        },
+        {
+            "bone": 2,
+            "blendshape": "",
+            "negative": "",
+            "param": "",
+            "multiplier": -10.0,
+            "gameObject": "",
+            "offset": 0.0,
+            "transform": 0
+        },
+        {
+            "bone": 3,
+            "blendshape": "",
+            "negative": "",
+            "param": "",
+            "multiplier": 1.5,
+            "gameObject": "",
+            "offset": 0.0,
+            "transform": 0
+        },
+        {
+            "bone": 4,
+            "blendshape": "",
+            "negative": "",
+            "param": "",
+            "multiplier": 5.0,
+            "gameObject": "",
+            "offset": 0.0,
+            "transform": 0
+        },
+        {
+            "bone": 4,
+            "blendshape": "",
+            "negative": "",
+            "param": "",
+            "multiplier": 8.0,
+            "gameObject": "",
+            "offset": 0.0,
+            "transform": 0
+        },
+        {
+            "bone": 4,
+            "blendshape": "",
+            "negative": "",
+            "param": "",
+            "multiplier": 4.0,
+            "gameObject": "",
+            "offset": 0.0,
+            "transform": 0
+        },
+        {
+            "bone": 4,
+            "blendshape": "",
+            "negative": "",
+            "param": "",
+            "multiplier": 7.0,
+            "gameObject": "",
+            "offset": 0.0,
+            "transform": 0
+        },
+        {
+            "bone": 4,
+            "blendshape": "",
+            "negative": "",
+            "param": "",
+            "multiplier": 4.0,
+            "gameObject": "",
+            "offset": 0.0,
+            "transform": 0
+        },
+        {
+            "bone": 4,
+            "blendshape": "",
+            "negative": "",
+            "param": "",
+            "multiplier": 7.0,
+            "gameObject": "",
+            "offset": 0.0,
+            "transform": 0
+        },
+        {
+            "bone": 4,
+            "blendshape": "",
+            "negative": "",
+            "param": "",
+            "multiplier": 10.0,
+            "gameObject": "",
+            "offset": 0.0,
+            "transform": 0
+        }
+    ],
+    "damping": 0.06499999761581421,
+    "elasticity": 0.019999999552965165,
+    "stiffness": 0.10000000149011612,
+    "inert": 0.6000000238418579
+}
