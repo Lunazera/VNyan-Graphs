@@ -1,4 +1,4 @@
-# LZ's Tail & Ears
+# Tail & Ears
 
 Responsive Tail and Ear controls!
 
@@ -6,7 +6,7 @@ Works through using pendulum chains to control bone rotations.
 *currently vnyan has a bug that pendulum chains wont save the bone, rotation, or offset values. There are notes in the graph that have the info of what to put here.
 
 
-## LZ's TailSway
+## TailSway
 
 Add dynamic tail movement to your model!
 Requires two accompanying pendulum chains, TailSway and TailSwayY.
@@ -31,7 +31,7 @@ You can toggle the smile-wagging and heartrate response off and on with the webs
 
 <b>Requirements:</b>Your tail bones must have at least one bone that does NOT have any springbone or dynamic bone applied to it.
 
-## LZ's EarSway Wiggle 
+## EarSway Wiggle 
 
 This is a little extra thing that works with the EarSway Pendulums. It will periodically wiggle a random ear :3
 
