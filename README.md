@@ -1,5 +1,7 @@
 # LZ's VNyan Graphs
 
+You are free to make use of these works for yourself! Attribution is not necessary, but appreciated :3
+
 ## AFK Detection
 ## ArmSway Wobble
 ## Breathing
