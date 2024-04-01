@@ -887,7 +887,7 @@
             "values": [
                 {
                     "key": "message",
-                    "value": "<size=20>Responsive Tail to heartrate</size>\n\nBased on your heartrate value if pulsoid is connect (otherwise this doesn't apply)\n\nThis uses [heartpercent] to reduce the tail movement when your heart beats faster. The effect is to have shorter movements as heartrate increases."
+                    "value": "<size=20>Responsive Tail to heartrate</size>\n\nBased on your heartrate value if pulsoid is connected (otherwise this doesn't apply)\n\nThis uses [heartpercent] to reduce the tail movement when your heart beats faster. The effect is to have shorter movements as heartrate increases."
                 }
             ],
             "posX": 42.999847412109378,
