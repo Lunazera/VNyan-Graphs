@@ -7,7 +7,7 @@
             "values": [
                 {
                     "key": "message",
-                    "value": "<size=20>LZ's TailSway</size></size> \n\n<color=#ca6fde>by Lunazera</color>\nMarch 2024\n\n▼——————————————— ▼\n\nAdd dynamic tail movement to your model!\nRequires two accompanying pendulum chains, TailSway and TailSwayY.\n\n<b>SETUP:</b>\n1. Load this graph, and the two pendulum chains.\n2. In the chains, set the Avatar GameObject's to be your control bone for your tail. This bone must not have any other animators on it (like springbones)\n3. Make sure the Transforms are Rotation Y and Z for the first chain's outputs, and Rotation X for the second chain output.\n4. Change the Offset value for TailSway's first bone output if you want your tail to lean to either the left or right.\n\n<b>Controls:</b>\n• TailSpeed = base speed of your tail \n• TailMovement = amount/distance of tail movement\n• TailWagAdd = how much smiling increases your tail wagging\n• TailMovementReduce = how much heartrate reduces your tail movement (needs Pulsoid)\n\n<b>Info</b>\n• This is responsive to your model's head movement. It will try to move your tail to the opposite side that your model looks & follow your head tilt.\n• This is also responsive to your smiling and heartrate! When ARKit smiling increases, your tail will start wagging faster and with more movement. As your heart rate increases, tail movement will reduce (so smaller movements).\n\nYou can toggle the smile-wagging and heartrate response off and on with the websockets below.\n<b>\nRequirements:</b>\u000BYour tail bones must have at least one bone that does NOT have any springbone or dynamic bone applied to it."
+                    "value": "<size=20>LZ's Tail</size></size> \n\n<color=#ca6fde>by Lunazera</color>\nMarch 2024\n\n▼——————————————— ▼\n\nAdd dynamic tail movement to your model!\nRequires two accompanying pendulum chains, TailSway and TailSwayY.\n\n<b>SETUP:</b>\n1. Load this graph, and the two pendulum chains.\n2. In the chains, set the Avatar GameObject's to be your control bone for your tail. This bone must not have any other animators on it (like springbones)\n3. Make sure the Transforms are Rotation Y and Z for the first chain's outputs, and Rotation X for the second chain output.\n4. Change the Offset value for TailSway's first bone output if you want your tail to lean to either the left or right.\n\n<b>Controls:</b>\n• TailSpeed = base speed of your tail \n• TailMovement = amount/distance of tail movement\n• TailWagAdd = how much smiling increases your tail wagging\n• TailMovementReduce = how much heartrate reduces your tail movement (needs Pulsoid)\n\n<b>Info</b>\n• This is responsive to your model's head movement. It will try to move your tail to the opposite side that your model looks & follow your head tilt.\n• This is also responsive to your smiling and heartrate! When ARKit smiling increases, your tail will start wagging faster and with more movement. As your heart rate increases, tail movement will reduce (so smaller movements).\n\nYou can toggle the smile-wagging and heartrate response off and on with the websockets below.\n<b>\nRequirements:</b>\u000BYour tail bones must have at least one bone that does NOT have any springbone or dynamic bone applied to it."
                 }
             ],
             "posX": -403.66680908203127,
@@ -1550,7 +1550,7 @@
             "values": [
                 {
                     "key": "message",
-                    "value": "<size=20>LZ's EarSway Wiggle</size></size> \n\n<color=#ca6fde>by Lunazera</color>\nMarch 2024\n\n▼——————————————— ▼\n\nThis is a little extra thing that works with the EarSway Pendulums. It will periodically wiggle a random ear :3\n\nTo set up the EarSway Pendulum chains, just set the gameobject to be your control bones for your ears (they can't have springbones on that bone). \n\nThe pendulums will tilt your ears along with your head, raise ears with eyebrow raising, and lower them with your brows down. Also will wiggle if you blink."
+                    "value": "<size=20>LZ's Ear Wiggle</size></size> \n\n<color=#ca6fde>by Lunazera</color>\nMarch 2024\n\n▼——————————————— ▼\n\nThis is a little extra thing that works with the EarSway Pendulums. It will periodically wiggle a random ear :3\n\nTo set up the EarSway Pendulum chains, just set the gameobject to be your control bones for your ears (they can't have springbones on that bone). \n\nThe pendulums will tilt your ears along with your head, raise ears with eyebrow raising, and lower them with your brows down. Also will wiggle if you blink.\n\nTo change how often the wiggles happen, change the numbers in WiggleRandomTime"
                 }
             ],
             "posX": 2503.0,
@@ -1607,8 +1607,8 @@
                     "value": "1000"
                 }
             ],
-            "posX": 4009.673583984375,
-            "posY": 567.6681518554688,
+            "posX": 4016.673583984375,
+            "posY": 571.6681518554688,
             "path": "Nodes/SetTimerNode",
             "inputSocketIds": [
                 "5d730817-2c45-4fd6-927e-a1268ea8ad33638467426290908725"
@@ -1624,8 +1624,8 @@
                     "value": "WiggleEar"
                 }
             ],
-            "posX": 3570.67236328125,
-            "posY": 687.999755859375,
+            "posX": 3564.67236328125,
+            "posY": 617.999755859375,
             "path": "Nodes/TriggerNode",
             "inputSocketIds": [],
             "outputSocketIds": [
@@ -1670,8 +1670,8 @@
                     "value": "{WiggleTimer}"
                 }
             ],
-            "posX": 3313.004638671875,
-            "posY": 522.0013427734375,
+            "posX": 3138.004638671875,
+            "posY": 527.0013427734375,
             "path": "Nodes/SetParamNode",
             "inputSocketIds": [
                 "f0a81a8e-5182-4c07-94cd-7cb7a71de9fb638467433951767546"
@@ -1897,33 +1897,21 @@
                 },
                 {
                     "key": "min",
-                    "value": "10000"
+                    "value": "8000"
                 },
                 {
                     "key": "max",
-                    "value": "30000"
+                    "value": "20000"
                 }
             ],
-            "posX": 4017.333740234375,
-            "posY": 378.33807373046877,
+            "posX": 3790.6669921875,
+            "posY": 435.0047302246094,
             "path": "Nodes/RandomParamNode",
             "inputSocketIds": [
                 "f05d9c6d-aa58-4a1e-b5ef-6590695a8c44638467444383437609"
             ],
             "outputSocketIds": [],
-            "headerColor": 6
-        },
-        {
-            "id": "186438a4-f798-4f25-b71a-75413d3282b9",
-            "values": [],
-            "posX": 3786.999755859375,
-            "posY": 453.00421142578127,
-            "path": "Nodes/AppStartNode",
-            "inputSocketIds": [],
-            "outputSocketIds": [
-                "0561c4b7-0d5f-4f24-8cbc-47305ea7bdb1638467444621961003"
-            ],
-            "headerColor": 7
+            "headerColor": 5
         },
         {
             "id": "07d3001c-2396-4e71-a4ef-02120c025577",
@@ -1978,6 +1966,18 @@
             "path": "Nodes/MessageBoxNode",
             "inputSocketIds": [],
             "outputSocketIds": [],
+            "headerColor": 7
+        },
+        {
+            "id": "0d8af0e2-e887-4fb9-9a12-53a59d2dedab",
+            "values": [],
+            "posX": 3562.00146484375,
+            "posY": 717.3316650390625,
+            "path": "Nodes/AppStartNode",
+            "inputSocketIds": [],
+            "outputSocketIds": [
+                "4d709a2a-854b-490e-95b6-dd53e3974b9d638475700367635709"
+            ],
             "headerColor": 7
         }
     ],
@@ -2288,16 +2288,6 @@
             "inputSocketId": "a78ce3b9-5284-4e28-8543-575781887bc0638467339648348607"
         },
         {
-            "id": "c6250c7b-f2d5-4149-80bf-e09b8eacae9b",
-            "outputSocketId": "2a69ec2a-dbe1-47bf-b5d0-aefc28790271638467417312300167",
-            "inputSocketId": "450c3539-8580-4a1e-9e54-304db9268c3d638467417380272089"
-        },
-        {
-            "id": "179e70d5-f4f7-4deb-9f16-8b81f7594224",
-            "outputSocketId": "f26f81b8-7653-4bbc-82c4-4e01e72ad5d6638467430294202292",
-            "inputSocketId": "2c00c473-427d-4a5a-b537-3eed1ae4c197638467435470716455"
-        },
-        {
             "id": "26fd6536-942e-4acf-af8b-92d856602281",
             "outputSocketId": "3989ddbc-c012-457c-b5b0-abab6ec7fcf1638467435470716455",
             "inputSocketId": "10bcb6d7-1418-4529-ae3a-4720835225cd638467435403191278"
@@ -2338,19 +2328,9 @@
             "inputSocketId": "43275209-575d-4405-8068-be2fd7869152638467436778746579"
         },
         {
-            "id": "3d7591af-5e31-47e4-8dda-a34b0401dada",
-            "outputSocketId": "0561c4b7-0d5f-4f24-8cbc-47305ea7bdb1638467444621961003",
-            "inputSocketId": "f05d9c6d-aa58-4a1e-b5ef-6590695a8c44638467444383437609"
-        },
-        {
             "id": "0667d60b-0829-4a10-b9f1-0fde036a7374",
             "outputSocketId": "1c994bb3-e7be-4f42-a2b6-ec3e8fc79a3f638467435470716455",
             "inputSocketId": "5d730817-2c45-4fd6-927e-a1268ea8ad33638467426290908725"
-        },
-        {
-            "id": "203655b1-73ad-4d27-8542-7eb3d7eb5995",
-            "outputSocketId": "c0152f62-00f3-4b94-95f0-ccec7198d7c1638467435470716455",
-            "inputSocketId": "f05d9c6d-aa58-4a1e-b5ef-6590695a8c44638467444383437609"
         },
         {
             "id": "afc18bf5-f438-4a26-833d-fad76a80de7d",
@@ -2376,6 +2356,26 @@
             "id": "bcc636a9-6a96-4c31-b531-0508016d96a6",
             "outputSocketId": "92e51758-5a93-497f-b779-80f3ef7a0349638467417380272089",
             "inputSocketId": "7abec806-e3e8-420d-917b-280d104c0dee638467438543773538"
+        },
+        {
+            "id": "378ccc42-4c77-4803-a7d3-f6932cd1bf3b",
+            "outputSocketId": "f26f81b8-7653-4bbc-82c4-4e01e72ad5d6638467430294202292",
+            "inputSocketId": "2c00c473-427d-4a5a-b537-3eed1ae4c197638467435470716455"
+        },
+        {
+            "id": "ff6d9de6-d930-4b85-a2a8-db34140337e7",
+            "outputSocketId": "c0152f62-00f3-4b94-95f0-ccec7198d7c1638467435470716455",
+            "inputSocketId": "f05d9c6d-aa58-4a1e-b5ef-6590695a8c44638467444383437609"
+        },
+        {
+            "id": "bf3ed13e-7dd0-4085-b923-2036ecd99412",
+            "outputSocketId": "2a69ec2a-dbe1-47bf-b5d0-aefc28790271638467417312300167",
+            "inputSocketId": "450c3539-8580-4a1e-9e54-304db9268c3d638467417380272089"
+        },
+        {
+            "id": "4de28336-2298-41e9-bd43-aa38ece51d65",
+            "outputSocketId": "4d709a2a-854b-490e-95b6-dd53e3974b9d638475700367635709",
+            "inputSocketId": "2c00c473-427d-4a5a-b537-3eed1ae4c197638467435470716455"
         }
     ]
 }
