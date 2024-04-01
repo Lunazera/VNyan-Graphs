@@ -1,6 +1,6 @@
 {
     "bones": 4,
-    "name": "RightEarSway",
+    "name": "RightEar",
     "inputs": [
         {
             "isBlendshape": true,
@@ -23,7 +23,7 @@
         {
             "isBlendshape": false,
             "valueName": "TailHeadZ",
-            "multiplier": 80.0,
+            "multiplier": 75.0,
             "isRotation": true
         },
         {
