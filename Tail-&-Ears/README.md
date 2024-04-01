@@ -52,6 +52,7 @@ Use these references to make sure the pendulum chain settings are correct
 ## Tail pendulum settings
 ### TailSway
 Bone = 3, Mult = 7, Offset = 0, Rotation Y
+
 Bone = 3, Mult = 12, Offset = 5, Rotation Z
 
 ### TailSwayY
@@ -60,10 +61,14 @@ Bone = 3, Mult = 15, Offset = 0, Rotation X
 ## Ear Pendulum settings
 ### LeftEar Outputs
 Bone = 3, Mult = 6, Offset = -2, Rotation X
+
 Bone = 3, Mult = -5, Offset = 25, Rotation Y
+
 Bone = 3, Mult = 15, Offset = 15, Rotation Z
 
 ### RightEar Outputs
 Bone = 3, Mult = -6, Offset = -2, Rotation X
+
 Bone = 3, Mult = -5, Offset = -25, Rotation Y
+
 Bone = 3, Mult = 15, Offset = -15, Rotation Z
