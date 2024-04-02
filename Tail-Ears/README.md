@@ -7,6 +7,8 @@ _note: currently vnyan has a bug that pendulum chains wont save the bone, rotati
 Requires at least VNyan version 1.3.4
 ## Tail
 
+![TailGif](https://github.com/Lunazera/VNyan-Graphs/blob/main/Tail-Ears/Tail-Example-animated.gif)
+
 Add dynamic tail movement to your model!
 Requires two accompanying pendulum chains, TailSway and TailSwayY.
 
