@@ -3,6 +3,8 @@
 Responsive Tail and Ear controls! Works through using pendulum chains to control bone rotations.
 
 _note: currently vnyan has a bug that pendulum chains wont save the bone, rotation, or offset values. There are notes in the graph that have the info of what to put here._
+
+Requires at least VNyan version 1.3.4
 ## Tail
 
 Add dynamic tail movement to your model!
