@@ -35,6 +35,7 @@ Requires two accompanying pendulum chains, TailSway and TailSwayY.
 You can toggle the smile-wagging and heartrate response off and on with these websocket commands: `ToggleTailWag` & `ToggleTailHeartrate`
 
 ## Ears
+![EarGif](https://github.com/Lunazera/VNyan-Graphs/blob/main/Tail-Ears/Ears-Example-animated.gif)
 
 ### Features
 - Ears raise up when you raise your eyebrows, and down when you lower them
